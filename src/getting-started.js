@@ -6,8 +6,9 @@ import {
   find,
   reduce
 } from 'ramda';
+import { isEven } from './utils';
+
 const double = x => x * 2;
-const isEven = x => x % 2 === 0;
 const add = (accum, value) => accum + value;
 
 const myArray = [
